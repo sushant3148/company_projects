@@ -19,7 +19,7 @@ func main(){
 	}
 	app.Use(logger.New())
 	app1 := fiber.New()
-	SetUpRoutes(app1)
-	log.Fatal(app.Listen(os.Getenv("APP")))
+	SetUpRoutes(app1) 	
+	log.Fatal(app.Listen(os.Getenv("APP"))))
 
 }
